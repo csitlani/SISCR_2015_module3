@@ -71,6 +71,7 @@ with(growth, text(age[gender=="female"], res[gender=="female"], labels=id[gender
 
 rm(list=ls())
 load('growthmore.Rdata')
+ages <- c(8,10,12,14)
 
 # Individual trajectories
 par(bty="n", mar=c(4.5, 4.5, 2, 2) + 0.1, cex.axis=1.5, cex.lab=1.5)
